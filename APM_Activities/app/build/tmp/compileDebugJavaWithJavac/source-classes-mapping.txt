@@ -1,0 +1,2 @@
+com/poapm/apm_activities/BuildConfig.java
+ com.poapm.apm_activities.BuildConfig
