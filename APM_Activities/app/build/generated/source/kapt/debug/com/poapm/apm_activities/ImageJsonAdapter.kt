@@ -35,8 +35,8 @@ public class ImageJsonAdapter(
 
   public override fun fromJson(reader: JsonReader): Image {
     var id: Int? = 0
-    var info: Int? = null
-    var resource: Int? = null
+    var info: Int? = 0
+    var resource: Int? = 0
     var mask0 = -1
     reader.beginObject()
     while (reader.hasNext()) {
@@ -46,9 +46,17 @@ public class ImageJsonAdapter(
           // $mask = $mask and (1 shl 0).inv()
           mask0 = mask0 and 0xfffffffe.toInt()
         }
-        1 -> info = intAdapter.fromJson(reader) ?: throw Util.unexpectedNull("info", "info", reader)
-        2 -> resource = intAdapter.fromJson(reader) ?: throw Util.unexpectedNull("resource",
-            "resource", reader)
+        1 -> {
+          info = intAdapter.fromJson(reader) ?: throw Util.unexpectedNull("info", "info", reader)
+          // $mask = $mask and (1 shl 1).inv()
+          mask0 = mask0 and 0xfffffffd.toInt()
+        }
+        2 -> {
+          resource = intAdapter.fromJson(reader) ?: throw Util.unexpectedNull("resource",
+              "resource", reader)
+          // $mask = $mask and (1 shl 2).inv()
+          mask0 = mask0 and 0xfffffffb.toInt()
+        }
         -1 -> {
           // Unknown name, skip it.
           reader.skipName()
@@ -57,12 +65,12 @@ public class ImageJsonAdapter(
       }
     }
     reader.endObject()
-    if (mask0 == 0xfffffffe.toInt()) {
+    if (mask0 == 0xfffffff8.toInt()) {
       // All parameters with defaults are set, invoke the constructor directly
       return  Image(
           id = id as Int,
-          info = info ?: throw Util.missingProperty("info", "info", reader),
-          resource = resource ?: throw Util.missingProperty("resource", "resource", reader)
+          info = info as Int,
+          resource = resource as Int
       )
     } else {
       // Reflectively invoke the synthetic defaults constructor
@@ -73,8 +81,8 @@ public class ImageJsonAdapter(
           Util.DEFAULT_CONSTRUCTOR_MARKER).also { this.constructorRef = it }
       return localConstructor.newInstance(
           id,
-          info ?: throw Util.missingProperty("info", "info", reader),
-          resource ?: throw Util.missingProperty("resource", "resource", reader),
+          info,
+          resource,
           mask0,
           /* DefaultConstructorMarker */ null
       )

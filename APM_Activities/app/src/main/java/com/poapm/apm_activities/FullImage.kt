@@ -27,4 +27,6 @@ class FullImage : AppCompatActivity() {
     private fun showImg(conta : Int){
         myImagen.setImageResource(Image.images[conta].resource)
     }
+
+
 }
