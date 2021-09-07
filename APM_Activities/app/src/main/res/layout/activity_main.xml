@@ -11,32 +11,49 @@
         android:id="@+id/imagesCarr"
         android:layout_width="250dp"
         android:layout_height="350dp"
-        tools:layout_editor_absoluteX="93dp"
-        tools:layout_editor_absoluteY="140dp"/>
+        android:src="@drawable/ic_flecha_izquierda"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.343"
+        app:layout_constraintHorizontal_bias="0.500"/>
 
     <ImageView
         android:id="@+id/imgAtras"
         android:layout_width="45dp"
         android:layout_height="45dp"
-        tools:layout_editor_absoluteX="93dp"
-        tools:layout_editor_absoluteY="513dp"
-        android:src="@drawable/ic_flecha_izquierda"/>
+        android:src="@drawable/ic_flecha_izquierda"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.740"
+        app:layout_constraintHorizontal_bias="0.220" />
 
     <ImageView
         android:id="@+id/imgSiguiente"
         android:layout_width="45dp"
         android:layout_height="45dp"
-        tools:layout_editor_absoluteX="298dp"
-        tools:layout_editor_absoluteY="513dp"
-        android:src="@drawable/ic_flecha_derecha"/>
+        android:src="@drawable/ic_flecha_derecha"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.740"
+        app:layout_constraintHorizontal_bias="0.780"/>
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="139dp"
-        android:layout_height="44dp"
-        android:text="Button"
-        tools:layout_editor_absoluteX="150dp"
-        tools:layout_editor_absoluteY="588dp" />
+        android:id="@+id/btnSelect"
+        android:layout_width="161dp"
+        android:layout_height="39dp"
+        android:text="Seleccionar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.840"
+        app:layout_constraintHorizontal_bias="0.500" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

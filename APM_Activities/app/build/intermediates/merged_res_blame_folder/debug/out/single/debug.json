@@ -1,5 +1,45 @@
 [
     {
+        "merged": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_imagetres.xml.flat",
+        "source": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\src\\main\\res\\drawable\\ic_imagetres.xml"
+    },
+    {
+        "merged": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_imagenueve.png.flat",
+        "source": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\src\\main\\res\\drawable-xxxhdpi\\imagenueve.png"
+    },
+    {
+        "merged": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_imagenueve.png.flat",
+        "source": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\src\\main\\res\\drawable-xxhdpi\\imagenueve.png"
+    },
+    {
+        "merged": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_imageocho.png.flat",
+        "source": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\src\\main\\res\\drawable-xxxhdpi\\imageocho.png"
+    },
+    {
+        "merged": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_imagenueve.png.flat",
+        "source": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\src\\main\\res\\drawable-hdpi\\imagenueve.png"
+    },
+    {
+        "merged": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_imageocho.png.flat",
+        "source": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\src\\main\\res\\drawable-xhdpi\\imageocho.png"
+    },
+    {
+        "merged": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_imagediez.png.flat",
+        "source": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\src\\main\\res\\drawable-xxxhdpi\\imagediez.png"
+    },
+    {
         "merged": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
     },
@@ -8,55 +48,163 @@
         "source": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.webp"
-    },
-    {
         "merged": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.webp"
-    },
-    {
-        "merged": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
-    },
-    {
-        "merged": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
         "merged": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
+        "merged": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_imagedos.xml.flat",
+        "source": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\src\\main\\res\\drawable\\ic_imagedos.xml"
+    },
+    {
+        "merged": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\build\\intermediates\\merged_res\\debug\\drawable-ldpi_imagesiete.png.flat",
+        "source": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\src\\main\\res\\drawable-ldpi\\imagesiete.png"
+    },
+    {
         "merged": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_imageuno.xml.flat",
+        "source": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\src\\main\\res\\drawable\\ic_imageuno.xml"
     },
     {
-        "merged": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_imagenueve.png.flat",
+        "source": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\src\\main\\res\\drawable-mdpi\\imagenueve.png"
     },
     {
-        "merged": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_imageocho.png.flat",
+        "source": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\src\\main\\res\\drawable-mdpi\\imageocho.png"
+    },
+    {
+        "merged": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_imagediez.png.flat",
+        "source": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\src\\main\\res\\drawable-xhdpi\\imagediez.png"
+    },
+    {
+        "merged": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_imagecinco.xml.flat",
+        "source": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\src\\main\\res\\drawable\\ic_imagecinco.xml"
     },
     {
         "merged": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
         "source": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_imagenueve.png.flat",
+        "source": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\src\\main\\res\\drawable-xhdpi\\imagenueve.png"
     },
     {
-        "merged": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_flecha_izquierda.xml.flat",
+        "source": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\src\\main\\res\\drawable\\ic_flecha_izquierda.xml"
+    },
+    {
+        "merged": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_flecha_derecha.xml.flat",
+        "source": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\src\\main\\res\\drawable\\ic_flecha_derecha.xml"
+    },
+    {
+        "merged": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_imageseis.png.flat",
+        "source": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\src\\main\\res\\drawable-mdpi\\imageseis.png"
+    },
+    {
+        "merged": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_imageseis.png.flat",
+        "source": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\src\\main\\res\\drawable-xhdpi\\imageseis.png"
+    },
+    {
+        "merged": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\build\\intermediates\\merged_res\\debug\\drawable-ldpi_imageocho.png.flat",
+        "source": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\src\\main\\res\\drawable-ldpi\\imageocho.png"
+    },
+    {
+        "merged": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_imagediez.png.flat",
+        "source": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\src\\main\\res\\drawable-xxhdpi\\imagediez.png"
+    },
+    {
+        "merged": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_imagecuatro.xml.flat",
+        "source": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\src\\main\\res\\drawable\\ic_imagecuatro.xml"
+    },
+    {
+        "merged": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_imageocho.png.flat",
+        "source": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\src\\main\\res\\drawable-hdpi\\imageocho.png"
+    },
+    {
+        "merged": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_imagesiete.png.flat",
+        "source": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\src\\main\\res\\drawable-xhdpi\\imagesiete.png"
+    },
+    {
+        "merged": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\build\\intermediates\\merged_res\\debug\\drawable-ldpi_imagediez.png.flat",
+        "source": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\src\\main\\res\\drawable-ldpi\\imagediez.png"
+    },
+    {
+        "merged": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_imageseis.png.flat",
+        "source": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\src\\main\\res\\drawable-xxhdpi\\imageseis.png"
+    },
+    {
+        "merged": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_imagesiete.png.flat",
+        "source": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\src\\main\\res\\drawable-mdpi\\imagesiete.png"
+    },
+    {
+        "merged": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_imageseis.png.flat",
+        "source": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\src\\main\\res\\drawable-xxxhdpi\\imageseis.png"
     },
     {
         "merged": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\build\\intermediates\\merged_res\\debug\\drawable-ldpi_imagenueve.png.flat",
+        "source": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\src\\main\\res\\drawable-ldpi\\imagenueve.png"
+    },
+    {
+        "merged": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_imagediez.png.flat",
+        "source": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\src\\main\\res\\drawable-hdpi\\imagediez.png"
+    },
+    {
+        "merged": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\build\\intermediates\\merged_res\\debug\\drawable-ldpi_imageseis.png.flat",
+        "source": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\src\\main\\res\\drawable-ldpi\\imageseis.png"
+    },
+    {
+        "merged": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_imageseis.png.flat",
+        "source": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\src\\main\\res\\drawable-hdpi\\imageseis.png"
+    },
+    {
+        "merged": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_imagesiete.png.flat",
+        "source": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\src\\main\\res\\drawable-hdpi\\imagesiete.png"
+    },
+    {
+        "merged": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_imagesiete.png.flat",
+        "source": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\src\\main\\res\\drawable-xxxhdpi\\imagesiete.png"
+    },
+    {
+        "merged": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_imagediez.png.flat",
+        "source": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\src\\main\\res\\drawable-mdpi\\imagediez.png"
+    },
+    {
+        "merged": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_imageocho.png.flat",
+        "source": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\src\\main\\res\\drawable-xxhdpi\\imageocho.png"
+    },
+    {
+        "merged": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_imagesiete.png.flat",
+        "source": "C:\\Users\\ponch\\Documents\\UNIVERSIDAD\\5to Semestre\\1er parcial\\TDMPA\\APMActivities\\APM_Activities\\app\\src\\main\\res\\drawable-xxhdpi\\imagesiete.png"
     }
 ]

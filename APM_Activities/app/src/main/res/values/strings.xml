@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">APM_Activities</string>
+
+    <string name="text_foto1">Este es el primer dinosaurio bonito</string>
+    <string name="text_foto2">Este es el segundo dinosaurio bonito</string>
+    <string name="text_foto3">Este es el tercer dinosaurio bonito</string>
+    <string name="text_foto4">Este es el cuarto dinosaurio bonito</string>
+    <string name="text_foto5">Este es el quinto dinosaurio bonito</string>
+    <string name="text_foto6">Este es el sexto dinosaurio bonito</string>
+    <string name="text_foto7">Este es el septimo dinosaurio bonito</string>
+    <string name="text_foto8">Este es el octavo dinosaurio bonito</string>
+    <string name="text_foto9">Este es el noveno dinosaurio bonito</string>
+    <string name="text_foto10">Este es el decimo dinosaurio bonito</string>
 </resources>
