@@ -20,6 +20,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.APM_Activities" >
         <activity
+            android:name="com.poapm.apm_activities.InfoActivity"
+            android:exported="true" />
+        <activity
             android:name="com.poapm.apm_activities.MainActivity"
             android:exported="true" >
             <intent-filter>

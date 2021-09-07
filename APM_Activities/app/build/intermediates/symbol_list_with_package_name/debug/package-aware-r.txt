@@ -1784,6 +1784,8 @@ drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
 drawable ic_clock_black_24dp
+drawable ic_estrellaoff
+drawable ic_estrellaon
 drawable ic_flecha_derecha
 drawable ic_flecha_izquierda
 drawable ic_imagecinco
@@ -2051,8 +2053,10 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageSelec
 id imagesCarr
 id imgAtras
+id imgEstrellita
 id imgSiguiente
 id immediateStop
 id included
@@ -2287,6 +2291,7 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id txvInfo
 id unchecked
 id uniform
 id unlabeled
@@ -2376,6 +2381,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_info
 layout activity_main
 layout custom_dialog
 layout design_bottom_navigation_item
@@ -2579,6 +2585,7 @@ string text_foto6
 string text_foto7
 string text_foto8
 string text_foto9
+string text_info
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style AndroidThemeColorAccentYellow

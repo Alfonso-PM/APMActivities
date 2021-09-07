@@ -6,6 +6,7 @@ import android.view.View
 import android.widget.Button
 import android.widget.ImageView
 import com.poapm.apm_activities.Image.Companion.images
+import android.content.Intent;
 
 class MainActivity : AppCompatActivity() {
 
@@ -34,55 +35,52 @@ class MainActivity : AppCompatActivity() {
         imgPrincipal.setImageResource(images[contador].resource)
 
         Change()
+        Minfon()
 
     }
 
     private fun Minfon(){
         btnMrInfo.setOnClickListener{
 
+            val intent = Intent(this, InfoActivity::class.java).apply { putExtra("imgSelect", contador.toString()) }
+
+            startActivity(intent)
         }
     }
 
 
-    private fun Change() {
-        btnDerecha.setOnClickListener{
-                if(contador<=8){
-                        contador++
-                        imgPrincipal.setImageResource(images[contador].resource)
-                    }else{
-                            contador=0
-                            imgPrincipal.setImageResource(images[contador].resource)
-                    }
-        }
+    private fun Change(){
 
+        btnDerecha.setOnClickListener{
+            Derecha()
+        }
 
         btnIzquierda.setOnClickListener{
-            if(contador>0){
-                contador--
-                imgPrincipal.setImageResource(images[contador].resource)
-            }else{
-                    contador=8
-                    imgPrincipal.setImageResource(images[contador].resource)
-            }
+            Izquierda()
         }
 
-
     }
 
+    private fun Derecha(){
+        if(contador<=8){
+            contador++
+            imgPrincipal.setImageResource(images[contador].resource)
 
-    private fun Select(conta: Int){
-            /*image.apply {
-                this.id = conta
-            }
-
-            showImage()*/
-    }
-    private fun showImage(){
-       /* imgPrincipal = findViewById(R.id.imagesCarr)
-        imgPrincipal.setImageResource(image.source)*/
+        }else{
+            contador=0
+            imgPrincipal.setImageResource(images[contador].resource)
+        }
     }
 
-
+    private fun Izquierda(){
+        if(contador>0){
+            contador--
+            imgPrincipal.setImageResource(images[contador].resource)
+        }else{
+            contador=8
+            imgPrincipal.setImageResource(images[contador].resource)
+        }
+    }
 
 
 }

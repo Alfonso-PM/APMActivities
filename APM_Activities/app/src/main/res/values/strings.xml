@@ -11,4 +11,8 @@
     <string name="text_foto8">Este es el octavo dinosaurio bonito</string>
     <string name="text_foto9">Este es el noveno dinosaurio bonito</string>
     <string name="text_foto10">Este es el decimo dinosaurio bonito</string>
+
+    <string name="text_info">Aqui se muestra la información de la imagen</string>
+
+    INFO
 </resources>
