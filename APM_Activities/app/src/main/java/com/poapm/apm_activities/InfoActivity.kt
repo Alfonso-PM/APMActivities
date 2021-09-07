@@ -19,10 +19,12 @@ class InfoActivity : AppCompatActivity() {
         var contador: Int = Integer.parseInt(str)
 
         showImg(contador)
+        ShowFull(contador)
     }
 
     private lateinit var myImagen: ImageView
     private lateinit var infotxt: TextView
+    private lateinit var fullImage: ImageView
 
     private fun initViews() {
 
@@ -35,4 +37,15 @@ class InfoActivity : AppCompatActivity() {
         myImagen.setImageResource(images[conta].resource)
         infotxt.setHint(images[conta].info)
     }
+
+    private fun ShowFull(contador2 : Int){
+        myImagen.setOnClickListener{
+
+            val intent = Intent(this, FullImage::class.java).apply { putExtra("FullImage", contador2.toString()) }
+
+            startActivity(intent)
+        }
+    }
+
+
 }

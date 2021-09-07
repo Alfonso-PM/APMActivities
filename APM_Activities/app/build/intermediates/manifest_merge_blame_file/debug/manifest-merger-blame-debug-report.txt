@@ -11,7 +11,7 @@
 9-->C:\Users\ponch\Documents\UNIVERSIDAD\5to Semestre\1er parcial\TDMPA\APMActivities\APM_Activities\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->C:\Users\ponch\Documents\UNIVERSIDAD\5to Semestre\1er parcial\TDMPA\APMActivities\APM_Activities\app\src\main\AndroidManifest.xml:5:5-24:19
+11-->C:\Users\ponch\Documents\UNIVERSIDAD\5to Semestre\1er parcial\TDMPA\APMActivities\APM_Activities\app\src\main\AndroidManifest.xml:5:5-27:19
 12        android:allowBackup="true"
 12-->C:\Users\ponch\Documents\UNIVERSIDAD\5to Semestre\1er parcial\TDMPA\APMActivities\APM_Activities\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -31,27 +31,33 @@
 21-->C:\Users\ponch\Documents\UNIVERSIDAD\5to Semestre\1er parcial\TDMPA\APMActivities\APM_Activities\app\src\main\AndroidManifest.xml:11:9-52
 22        <activity
 22-->C:\Users\ponch\Documents\UNIVERSIDAD\5to Semestre\1er parcial\TDMPA\APMActivities\APM_Activities\app\src\main\AndroidManifest.xml:12:9-14:39
-23            android:name="com.poapm.apm_activities.InfoActivity"
-23-->C:\Users\ponch\Documents\UNIVERSIDAD\5to Semestre\1er parcial\TDMPA\APMActivities\APM_Activities\app\src\main\AndroidManifest.xml:13:13-41
+23            android:name="com.poapm.apm_activities.FullImage"
+23-->C:\Users\ponch\Documents\UNIVERSIDAD\5to Semestre\1er parcial\TDMPA\APMActivities\APM_Activities\app\src\main\AndroidManifest.xml:13:13-38
 24            android:exported="true" />
 24-->C:\Users\ponch\Documents\UNIVERSIDAD\5to Semestre\1er parcial\TDMPA\APMActivities\APM_Activities\app\src\main\AndroidManifest.xml:14:13-36
 25        <activity
-25-->C:\Users\ponch\Documents\UNIVERSIDAD\5to Semestre\1er parcial\TDMPA\APMActivities\APM_Activities\app\src\main\AndroidManifest.xml:15:9-23:20
-26            android:name="com.poapm.apm_activities.MainActivity"
+25-->C:\Users\ponch\Documents\UNIVERSIDAD\5to Semestre\1er parcial\TDMPA\APMActivities\APM_Activities\app\src\main\AndroidManifest.xml:15:9-17:39
+26            android:name="com.poapm.apm_activities.InfoActivity"
 26-->C:\Users\ponch\Documents\UNIVERSIDAD\5to Semestre\1er parcial\TDMPA\APMActivities\APM_Activities\app\src\main\AndroidManifest.xml:16:13-41
-27            android:exported="true" >
+27            android:exported="true" />
 27-->C:\Users\ponch\Documents\UNIVERSIDAD\5to Semestre\1er parcial\TDMPA\APMActivities\APM_Activities\app\src\main\AndroidManifest.xml:17:13-36
-28            <intent-filter>
-28-->C:\Users\ponch\Documents\UNIVERSIDAD\5to Semestre\1er parcial\TDMPA\APMActivities\APM_Activities\app\src\main\AndroidManifest.xml:18:13-22:29
-29                <action android:name="android.intent.action.MAIN" />
-29-->C:\Users\ponch\Documents\UNIVERSIDAD\5to Semestre\1er parcial\TDMPA\APMActivities\APM_Activities\app\src\main\AndroidManifest.xml:19:17-69
-29-->C:\Users\ponch\Documents\UNIVERSIDAD\5to Semestre\1er parcial\TDMPA\APMActivities\APM_Activities\app\src\main\AndroidManifest.xml:19:25-66
-30
-31                <category android:name="android.intent.category.LAUNCHER" />
-31-->C:\Users\ponch\Documents\UNIVERSIDAD\5to Semestre\1er parcial\TDMPA\APMActivities\APM_Activities\app\src\main\AndroidManifest.xml:21:17-77
-31-->C:\Users\ponch\Documents\UNIVERSIDAD\5to Semestre\1er parcial\TDMPA\APMActivities\APM_Activities\app\src\main\AndroidManifest.xml:21:27-74
-32            </intent-filter>
-33        </activity>
-34    </application>
-35
-36</manifest>
+28        <activity
+28-->C:\Users\ponch\Documents\UNIVERSIDAD\5to Semestre\1er parcial\TDMPA\APMActivities\APM_Activities\app\src\main\AndroidManifest.xml:18:9-26:20
+29            android:name="com.poapm.apm_activities.MainActivity"
+29-->C:\Users\ponch\Documents\UNIVERSIDAD\5to Semestre\1er parcial\TDMPA\APMActivities\APM_Activities\app\src\main\AndroidManifest.xml:19:13-41
+30            android:exported="true" >
+30-->C:\Users\ponch\Documents\UNIVERSIDAD\5to Semestre\1er parcial\TDMPA\APMActivities\APM_Activities\app\src\main\AndroidManifest.xml:20:13-36
+31            <intent-filter>
+31-->C:\Users\ponch\Documents\UNIVERSIDAD\5to Semestre\1er parcial\TDMPA\APMActivities\APM_Activities\app\src\main\AndroidManifest.xml:21:13-25:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->C:\Users\ponch\Documents\UNIVERSIDAD\5to Semestre\1er parcial\TDMPA\APMActivities\APM_Activities\app\src\main\AndroidManifest.xml:22:17-69
+32-->C:\Users\ponch\Documents\UNIVERSIDAD\5to Semestre\1er parcial\TDMPA\APMActivities\APM_Activities\app\src\main\AndroidManifest.xml:22:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->C:\Users\ponch\Documents\UNIVERSIDAD\5to Semestre\1er parcial\TDMPA\APMActivities\APM_Activities\app\src\main\AndroidManifest.xml:24:17-77
+34-->C:\Users\ponch\Documents\UNIVERSIDAD\5to Semestre\1er parcial\TDMPA\APMActivities\APM_Activities\app\src\main\AndroidManifest.xml:24:27-74
+35            </intent-filter>
+36        </activity>
+37    </application>
+38
+39</manifest>

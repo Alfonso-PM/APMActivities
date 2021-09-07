@@ -2057,6 +2057,7 @@ id imageSelec
 id imagesCarr
 id imgAtras
 id imgEstrellita
+id imgFull
 id imgSiguiente
 id immediateStop
 id included
@@ -2381,6 +2382,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_full_image
 layout activity_info
 layout activity_main
 layout custom_dialog

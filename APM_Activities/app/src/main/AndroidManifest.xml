@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.APM_Activities">
         <activity
+            android:name=".FullImage"
+            android:exported="true" />
+        <activity
             android:name=".InfoActivity"
             android:exported="true" />
         <activity
