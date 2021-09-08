@@ -16,7 +16,7 @@ class InfoActivity : AppCompatActivity() {
         setContentView(R.layout.activity_info)
 
         preferences = getSharedPreferences(PREFS, Context.MODE_PRIVATE)
-        myImgFavorite = getImage()
+        image = getImage()
         initViews()
 
 
@@ -24,15 +24,19 @@ class InfoActivity : AppCompatActivity() {
         val str = intent.getStringExtra("imgSelect")
         var contador: Int = Integer.parseInt(str)
 
-        /*if(myImgFavorite.id != null) {  //LA APLICACIÓN ME TRUENA CON ESTE CODIGO Y NO ME GUARDA LA PREFERENCIA
-            if (myImgFavorite.id.equals(image.id))
-                star.setImageResource(R.drawable.ic_estrellaon)
-            else
-                star.setImageResource(R.drawable.ic_estrellaoff)
-        }*/
+
+        if(image.resource == images[contador].resource) {
+
+            star.setImageResource(R.drawable.ic_estrellaon)
+        }
+        else
+        {
+            star.setImageResource(R.drawable.ic_estrellaoff)
+        }
 
         showImg(contador)
         ShowFull(contador)
+        btnstar(contador)
     }
 
 
@@ -46,22 +50,22 @@ class InfoActivity : AppCompatActivity() {
     private var myId: Int = 0
     private lateinit var image:Image
     private lateinit var myImgFavorite:Image
-    private val PREFS = "MY_PREFERENCES"
-    private val IMAGE_PREFS = "FAVORITE_IMAGE"
+    private val PREFS = "PREFS"
+    private val FAVORITE_IMAGE = "FAVORITE_IMAGE"
     private lateinit var preferences: SharedPreferences
     private val moshi = Moshi.Builder().build()
 
     private fun saveImage(image: Image) {
-        preferences.edit().putString(IMAGE_PREFS, moshi.adapter(Image::class.java).toJson(image)).apply()
-        star.setImageResource(R.drawable.ic_estrellaon)
+        preferences.edit().putString("FAVORITE_IMAGE",moshi.adapter(Image::class.java).toJson(image)).apply()
+
     }
 
 
     private fun getImage() =
-        preferences.getString(IMAGE_PREFS, null).let {
-            return@let try{
+        preferences.getString("FAVORITE_IMAGE", null)?.let {
+            return@let try {
                 moshi.adapter(Image::class.java).fromJson(it)
-            } catch (e: Exception){
+            } catch (e: Exception) {
                 Image()
             }
         } ?: Image()
@@ -73,7 +77,6 @@ class InfoActivity : AppCompatActivity() {
         infotxt = findViewById(R.id.txvInfo)
         star = findViewById(R.id.imgEstrellita)
 
-        onof=btnstar(onof)
     }
 
     private fun showImg(conta : Int){
@@ -91,24 +94,14 @@ class InfoActivity : AppCompatActivity() {
     }
 
 
-    private fun btnstar(onof: Boolean): Boolean{
-        var onofValue : Boolean = onof
-        star.setOnClickListener {
-            if (onofValue == false){
-                onofValue = true
-                star.setImageResource(R.drawable.ic_estrellaon)
-            }
-            else{
-                if(onofValue==true){
-                    onofValue=false
-                    star.setImageResource(R.drawable.ic_estrellaoff)
-                }
-            }
+    private fun btnstar(conta: Int){
+
+        var starValue= false
+
+        star.setOnClickListener{
+            saveImage(images[conta])
+            star.setImageResource(R.drawable.ic_estrellaon)
         }
-
-        return onofValue
-
-        //saveImage()
     }
 
 
