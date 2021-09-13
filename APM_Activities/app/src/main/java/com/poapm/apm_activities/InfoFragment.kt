@@ -14,6 +14,7 @@ import androidx.constraintlayout.widget.ConstraintLayout
 import android.content.SharedPreferences
 import android.content.Context
 import com.squareup.moshi.Moshi
+import android.media.MediaPlayer
 
 
 
@@ -24,6 +25,7 @@ class InfoFragment : Fragment(R.layout.fragment_info) {
     private lateinit var clImageInfo: ConstraintLayout
     private lateinit var infotxt: TextView
     private lateinit var star: ImageView
+    private lateinit var song: ImageView
 
 
 
@@ -32,9 +34,10 @@ class InfoFragment : Fragment(R.layout.fragment_info) {
     private var onof: Boolean = false
     private var myId: Int = 0
     private lateinit var image:Image
-    private lateinit var myImgFavorite:Image
+
     private val PREFS = "PREFS"
     private val FAVORITE_IMAGE = "FAVORITE_IMAGE"
+    private val FAVORITE_SOUND = "FAVORITE_SOUND"
     private lateinit var preferences: SharedPreferences
     private val moshi = Moshi.Builder().build()
 
@@ -61,6 +64,7 @@ class InfoFragment : Fragment(R.layout.fragment_info) {
 
         ShowFull(contador)
         showImg(contador)
+        images[contador].sound?.let { playSound(it) }
 
         btnstar(contador)
     }
@@ -71,26 +75,33 @@ class InfoFragment : Fragment(R.layout.fragment_info) {
         myImagen = requireView().findViewById(R.id.imageSelec)
         infotxt = requireView().findViewById(R.id.txvInfo)
         star = requireView().findViewById(R.id.imgEstrellita)
-        //ivAddSound = requireView().findViewById(R.id.ivAddSound)
+        song = requireView().findViewById(R.id.imgSound)
+
+
+
 
     }
 
     private fun showImg(conta : Int){
         myImagen.setImageResource(images[conta].resource)
         infotxt.setHint(images[conta].info)
+
     }
+
+
+    private fun playSound(sound: Int) = MediaPlayer.create(requireContext(), sound).start()
 
     private fun ShowFull(contador2 : Int){
         myImagen.setOnClickListener{
 
             val fullImageFragment: Fragment = FullImageFragment().apply {
                 arguments = Bundle().apply {
-                    putString("FullImage", contador2.toString())
+                    putString("Contador2", contador2.toString())
                 }
             }
 
             activity?.supportFragmentManager?.beginTransaction()?.apply {
-                replace(R.id.container, FullImageFragment())
+                replace(R.id.container, fullImageFragment)
                 addToBackStack(null)
                 commit()
             }

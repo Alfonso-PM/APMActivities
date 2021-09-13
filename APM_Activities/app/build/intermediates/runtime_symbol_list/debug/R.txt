@@ -2071,6 +2071,7 @@ int id imgAtras 0x7f0800d5
 int id imgEstrellita 0x7f0801d8
 int id imgFull 0x7f0801d9
 int id imgSiguiente 0x7f0800d6
+int id imgSound 0x7f0801e3
 int id immediateStop 0x7f0800d7
 int id included 0x7f0800d8
 int id info 0x7f0800d9

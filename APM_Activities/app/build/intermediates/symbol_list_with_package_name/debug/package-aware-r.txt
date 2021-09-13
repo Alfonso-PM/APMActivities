@@ -2072,6 +2072,7 @@ id imgAtras
 id imgEstrellita
 id imgFull
 id imgSiguiente
+id imgSound
 id immediateStop
 id included
 id info

@@ -14,11 +14,11 @@ class FullImageFragment : Fragment(R.layout.fragment_full_image) {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         initViews()
+        var contador: Int = 0
 
 
-
-        val str = requireArguments().getString("FullImage")!!
-        var contador = Integer.parseInt(str)
+        val str = requireArguments().getString("Contador2")!!
+        contador = Integer.parseInt(str)
 
         showImg(contador)
 
