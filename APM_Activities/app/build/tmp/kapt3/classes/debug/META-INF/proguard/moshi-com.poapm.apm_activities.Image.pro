@@ -8,5 +8,5 @@
 -keepnames class kotlin.jvm.internal.DefaultConstructorMarker
 -if class com.poapm.apm_activities.Image
 -keepclassmembers class com.poapm.apm_activities.Image {
-    public synthetic <init>(int,int,int,int,kotlin.jvm.internal.DefaultConstructorMarker);
+    public synthetic <init>(int,int,int,int,int,kotlin.jvm.internal.DefaultConstructorMarker);
 }

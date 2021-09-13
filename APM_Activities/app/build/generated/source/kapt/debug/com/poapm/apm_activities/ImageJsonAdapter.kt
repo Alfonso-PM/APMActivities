@@ -23,7 +23,7 @@ import kotlin.text.buildString
 public class ImageJsonAdapter(
   moshi: Moshi
 ) : JsonAdapter<Image>() {
-  private val options: JsonReader.Options = JsonReader.Options.of("id", "info", "resource")
+  private val options: JsonReader.Options = JsonReader.Options.of("id", "info", "resource", "sound")
 
   private val intAdapter: JsonAdapter<Int> = moshi.adapter(Int::class.java, emptySet(), "id")
 
@@ -37,6 +37,7 @@ public class ImageJsonAdapter(
     var id: Int? = 0
     var info: Int? = 0
     var resource: Int? = 0
+    var sound: Int? = 0
     var mask0 = -1
     reader.beginObject()
     while (reader.hasNext()) {
@@ -57,6 +58,11 @@ public class ImageJsonAdapter(
           // $mask = $mask and (1 shl 2).inv()
           mask0 = mask0 and 0xfffffffb.toInt()
         }
+        3 -> {
+          sound = intAdapter.fromJson(reader) ?: throw Util.unexpectedNull("sound", "sound", reader)
+          // $mask = $mask and (1 shl 3).inv()
+          mask0 = mask0 and 0xfffffff7.toInt()
+        }
         -1 -> {
           // Unknown name, skip it.
           reader.skipName()
@@ -65,12 +71,13 @@ public class ImageJsonAdapter(
       }
     }
     reader.endObject()
-    if (mask0 == 0xfffffff8.toInt()) {
+    if (mask0 == 0xfffffff0.toInt()) {
       // All parameters with defaults are set, invoke the constructor directly
       return  Image(
           id = id as Int,
           info = info as Int,
-          resource = resource as Int
+          resource = resource as Int,
+          sound = sound as Int
       )
     } else {
       // Reflectively invoke the synthetic defaults constructor
@@ -78,11 +85,13 @@ public class ImageJsonAdapter(
       val localConstructor: Constructor<Image> = this.constructorRef ?:
           Image::class.java.getDeclaredConstructor(Int::class.javaPrimitiveType,
           Int::class.javaPrimitiveType, Int::class.javaPrimitiveType, Int::class.javaPrimitiveType,
-          Util.DEFAULT_CONSTRUCTOR_MARKER).also { this.constructorRef = it }
+          Int::class.javaPrimitiveType, Util.DEFAULT_CONSTRUCTOR_MARKER).also {
+          this.constructorRef = it }
       return localConstructor.newInstance(
           id,
           info,
           resource,
+          sound,
           mask0,
           /* DefaultConstructorMarker */ null
       )
@@ -100,6 +109,8 @@ public class ImageJsonAdapter(
     intAdapter.toJson(writer, value_.info)
     writer.name("resource")
     intAdapter.toJson(writer, value_.resource)
+    writer.name("sound")
+    intAdapter.toJson(writer, value_.sound)
     writer.endObject()
   }
 }

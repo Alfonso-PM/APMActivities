@@ -10,19 +10,19 @@ import android.content.Intent;
 
 class MainActivity : AppCompatActivity() {
 
-    private lateinit var image: Image
-    var contador : Int = 0
+    //private lateinit var image: Image
+    //var contador : Int = 0
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        initViews()
+        supportFragmentManager.beginTransaction().add(R.id.container, CarruselFragment()).commit()
 
     }
 
-    private lateinit var btnDerecha: ImageView
+    /*private lateinit var btnDerecha: ImageView
     private lateinit var btnIzquierda: ImageView
     private lateinit var imgPrincipal: ImageView
     private lateinit var btnMrInfo: Button
@@ -80,7 +80,7 @@ class MainActivity : AppCompatActivity() {
             contador=8
             imgPrincipal.setImageResource(images[contador].resource)
         }
-    }
+    }*/
 
 
 }

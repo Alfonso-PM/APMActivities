@@ -21,7 +21,7 @@ class InfoActivity : AppCompatActivity() {
 
 
         val intent = intent
-        val str = intent.getStringExtra("imgSelect")
+        val str = intent.getStringExtra("FullImage")
         var contador: Int = Integer.parseInt(str)
 
 

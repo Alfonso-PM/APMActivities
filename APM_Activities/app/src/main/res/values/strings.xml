@@ -13,6 +13,8 @@
     <string name="text_foto10">Este es el decimo dinosaurio bonito</string>
 
     <string name="text_info">Aqui se muestra la información de la imagen</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
     INFO
 </resources>

@@ -1,59 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <ImageView
-        android:id="@+id/imagesCarr"
-        android:layout_width="250dp"
-        android:layout_height="350dp"
-        android:src="@drawable/ic_flecha_izquierda"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.343"
-        app:layout_constraintHorizontal_bias="0.500"/>
-
-    <ImageView
-        android:id="@+id/imgAtras"
-        android:layout_width="45dp"
-        android:layout_height="45dp"
-        android:src="@drawable/ic_flecha_izquierda"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.740"
-        app:layout_constraintHorizontal_bias="0.220" />
-
-    <ImageView
-        android:id="@+id/imgSiguiente"
-        android:layout_width="45dp"
-        android:layout_height="45dp"
-        android:src="@drawable/ic_flecha_derecha"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.740"
-        app:layout_constraintHorizontal_bias="0.780"/>
-
-    <Button
-        android:id="@+id/btnSelect"
-        android:layout_width="161dp"
-        android:layout_height="39dp"
-        android:text="Seleccionar"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.840"
-        app:layout_constraintHorizontal_bias="0.500" />
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
 
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</LinearLayout>
