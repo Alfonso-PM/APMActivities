@@ -10,10 +10,6 @@ import android.content.Intent;
 
 class MainActivity : AppCompatActivity() {
 
-
-    //PRUEBA FRAGMENTS RAMA
-
-
     private lateinit var image: Image
     var contador : Int = 0
 
