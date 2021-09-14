@@ -28,12 +28,14 @@ class InfoFragment : Fragment(R.layout.fragment_info) {
     private lateinit var song: ImageView
 
 
-
+    private var starBool : Boolean = false
+    private var songBool : Boolean = false
 
 
     private var onof: Boolean = false
     private var myId: Int = 0
     private lateinit var image:Image
+    private lateinit var sound:Image
 
     private val PREFS = "PREFS"
     private val FAVORITE_IMAGE = "FAVORITE_IMAGE"
@@ -47,6 +49,7 @@ class InfoFragment : Fragment(R.layout.fragment_info) {
         var contador: Int = 0
         preferences = activity?.getSharedPreferences(PREFS, Context.MODE_PRIVATE)!!
         image = getImage()
+        sound = getSong()
 
         val str = requireArguments().getString("Contador")!!
         contador = Integer.parseInt(str)
@@ -55,10 +58,23 @@ class InfoFragment : Fragment(R.layout.fragment_info) {
         if(image.resource == images[contador].resource) {
 
             star.setImageResource(R.drawable.ic_estrellaon)
+            starBool = true
         }
         else
         {
             star.setImageResource(R.drawable.ic_estrellaoff)
+            starBool = false
+        }
+
+        if(sound.resource == images[contador].resource) {
+
+            song.setImageResource(R.drawable.ic_songon)
+            songBool = true
+        }
+        else
+        {
+            song.setImageResource(R.drawable.ic_songoff)
+            songBool = true
         }
 
 
@@ -67,7 +83,10 @@ class InfoFragment : Fragment(R.layout.fragment_info) {
         images[contador].sound?.let { playSound(it) }
 
         btnstar(contador)
+        btnsoundfav(contador)
     }
+
+
 
     private fun initView() {
         clImageInfo = requireView().findViewById(R.id.clTXInfo)
@@ -76,10 +95,6 @@ class InfoFragment : Fragment(R.layout.fragment_info) {
         infotxt = requireView().findViewById(R.id.txvInfo)
         star = requireView().findViewById(R.id.imgEstrellita)
         song = requireView().findViewById(R.id.imgSound)
-
-
-
-
     }
 
     private fun showImg(conta : Int){
@@ -108,11 +123,36 @@ class InfoFragment : Fragment(R.layout.fragment_info) {
         }
     }
 
+    private fun btnsoundfav(conta: Int) {
+        song.setOnClickListener{
+            saveSong(images[conta])
+            song.setImageResource(R.drawable.ic_songon)
+        }
+    }
+
+    private fun saveSong(sound: Image) {
+        if (songBool){
+            song.setImageResource(R.drawable.ic_songoff)
+            preferences.edit().putString("FAVORITE_SOUND",moshi.adapter(Image::class.java).toJson(Image (0,0,0,0))).apply()
+            songBool=false
+        }
+        else{
+            song.setImageResource(R.drawable.ic_songon)
+            preferences.edit().putString("FAVORITE_SOUND",moshi.adapter(Image::class.java).toJson(sound)).apply()
+            songBool= true
+        }
+    }
+
+    private fun getSong() =
+        preferences.getString("FAVORITE_SOUND", null)?.let {
+            return@let try {
+                moshi.adapter(Image::class.java).fromJson(it)
+            } catch (e: Exception) {
+                Image()
+            }
+        } ?: Image()
 
     private fun btnstar(conta: Int){
-
-        var starValue= false
-
         star.setOnClickListener{
             saveImage(images[conta])
             star.setImageResource(R.drawable.ic_estrellaon)
@@ -121,7 +161,17 @@ class InfoFragment : Fragment(R.layout.fragment_info) {
 
 
     private fun saveImage(image: Image) {
-        preferences.edit().putString("FAVORITE_IMAGE",moshi.adapter(Image::class.java).toJson(image)).apply()
+
+        if (starBool){
+            star.setImageResource(R.drawable.ic_estrellaoff)
+            preferences.edit().putString("FAVORITE_IMAGE",moshi.adapter(Image::class.java).toJson(Image (0,0,0,0))).apply()
+            starBool=false
+        }
+        else{
+            star.setImageResource(R.drawable.ic_estrellaon)
+            preferences.edit().putString("FAVORITE_IMAGE",moshi.adapter(Image::class.java).toJson(image)).apply()
+            starBool= true
+        }
 
     }
 
@@ -134,5 +184,4 @@ class InfoFragment : Fragment(R.layout.fragment_info) {
                 Image()
             }
         } ?: Image()
-
 }
